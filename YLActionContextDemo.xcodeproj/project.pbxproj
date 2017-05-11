@@ -323,6 +323,7 @@
 				DEVELOPMENT_TEAM = UMCLJT4MG5;
 				GCC_PREFIX_HEADER = $PROJECT_DIR/$PROJECT_NAME/PrefixHeader.pch;
 				INFOPLIST_FILE = YLActionContextDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icw.app.YLActionContextDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +337,7 @@
 				DEVELOPMENT_TEAM = UMCLJT4MG5;
 				GCC_PREFIX_HEADER = $PROJECT_DIR/$PROJECT_NAME/PrefixHeader.pch;
 				INFOPLIST_FILE = YLActionContextDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icw.app.YLActionContextDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +363,7 @@
 				A093BDA21EC2F3F20014CE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
