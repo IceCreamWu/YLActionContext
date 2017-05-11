@@ -79,6 +79,22 @@ NSString *kViewControllerTitle = @"ViewController Title";
     }
     return _ylView;
 }
+    
+#pragma mark - Test
+- (void)test {
+    
+    // 消息接收者
+    YLActionContext *kYLActionContext = [YLActionContext actionContext];
+    [kYLActionContext registerAction:@"actionName" callback:^id(id data) {
+        NSLog(@"%@", data);
+        return @"Message From Receiver!";
+    } keyObject:self];
+    
+    
+    // 消息发送者（调用者）
+    id data = [[YLActionContext actionContext] callAction:@"actionName" data:@"Message From Sender!"];
+    NSLog(@"%@", data);
+}
 
 
 @end
